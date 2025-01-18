@@ -40,7 +40,7 @@ scene.add(backMesh);
 const radius = 1.4;
 const widthSegement = 64;
 const heightSegement = 64;
-const textures = ["./csilla/color.png", "./earth/map.jpg", "./venus/map.jpg", "./volcanic/color.png"];
+const textures = ["./csilla/csilla.jpg", "./earth/earth.jpg", "./venus/venus.jpg", "./volcanic/volcanicJpg.jpg"];
 const spheres = new THREE.Group();
 const orbitRadius = 4.4;
 
