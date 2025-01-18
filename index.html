@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+  <div class="w-full h-screen overflow-hidden">
+    <div class="w-full h-screen absolute top-0 left-0">
+      <div class="hero-text absolute top-[15%] left-0 text-center m-auto right-0 -translate-y-1/2 text-white w-fit z-in">
+        <div class="headings overflow-hidden h-[99px]">
+          <h1 class="text-8xl font-thin tracking-wider font-[Uchen]">Earth</h1>
+          <h1 class="text-8xl font-thin tracking-wider font-[Uchen]">Venus</h1>
+          <h1 class="text-8xl font-thin tracking-wider font-[Uchen]">Volcanic</h1>
+          <h1 class="text-8xl font-thin tracking-wider font-[Uchen]">Csilla</h1>
+        </div>
+
+        <p class="text-md">Welcome to my 3D world of Planets.
+          <div class="w-full h-[1px] bg-gradient-to-r from-white/50 via-white/10 to-transparent mt-4"></div>
+        </p>
+        
+      </div>
+      <canvas class="z-[1]"></canvas>
+    </div>
+  </div>
+  
+  <script src="./planets.js" type="module"></script>
+</body>
+</html>
