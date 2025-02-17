@@ -156,7 +156,7 @@ document.addEventListener("touchmove", (e) => {
 const canvas = document.querySelector('canvas');
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
-renderer.setPixelRatio(window.devicePixelRatio);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
 
 // Handle window resize
 window.addEventListener('resize', () => {
